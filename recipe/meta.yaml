@@ -1,4 +1,4 @@
-{% set version = "2.9.0" %}
+{% set version = "2.9.1" %}
 {% set build = 1001 %}
 
 # mpi must be defined for conda-smithy lint
@@ -14,8 +14,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/h5py/h5py/archive/{{ version }}.tar.gz
-  sha256: 49d593c07a3a4cb87ed421f502e34368b98282a4ac6d4388379aab80b11c7924
+  url: https://github.com/khornlund/h5py/archive/{{ version }}.tar.gz
+  sha256: e092ef80305a19484311c23b7f1820b6b4dfc21253894d92e23a80361d4f4c7e
 
 build:
   number: {{ build }}
